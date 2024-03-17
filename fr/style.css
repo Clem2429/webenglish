@@ -45,7 +45,7 @@ nav {
 }
 
 .menu-links {
-    padding-left: 380px;
+    padding-left: 415px;
         @media screen and (max-width: 800px) {
         display: none;
     }
