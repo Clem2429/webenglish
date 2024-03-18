@@ -357,13 +357,13 @@ body {
     }
 
     .case_image img {
-        @media screen and (max-width: 1000px) {
-            display: none;
-        }
-        width: auto;
+        width: 100%;
         height: 200px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
     }
 
     .case_contenu h2 {
