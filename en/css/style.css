@@ -8,6 +8,7 @@
     margin-top: 20px;
     font-size: 3em;
     text-align: center;
+    letter-spacing:5px;
 }
 
 /* MODAL */
@@ -192,7 +193,7 @@ body {
 }
 
 .ligne {
-    height: 2530px;
+    height: 3754px;
     width: 8px;
     margin: 0 auto;
     background: #D2A25F;
@@ -223,6 +224,10 @@ body {
 .r7{top: 1918px;}
 .r8{top: 2224px;}
 .r9{top: 2530px;}
+.r10{top: 2836px;}
+.r11{top: 3142px;}
+.r12{top: 3448px;}
+.r13{top: 3754px;}
 
 .box {
     color: #D2A25F;
@@ -276,6 +281,23 @@ body {
     top: 2530px;
     left: calc(50% - 270px);
 }
+.b10 {
+    top: 2836px;
+    left: calc(50% + 270px);
+}
+.b11 {
+    top: 3142px;
+    left: calc(50% - 270px);
+}
+.b12 {
+    top: 3448px;
+    left: calc(50% + 270px);
+}
+.b13 {
+    top: 3754px;
+    left: calc(50% - 270px);
+}
+
 
 .box p {
     line-height: 20px;

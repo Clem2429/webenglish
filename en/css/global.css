@@ -154,7 +154,7 @@ left: 15%;
 footer {
     background-color: #D2A25F;
     padding: 10px 25px 0px 25px;
-    margin-top: 1300px;
+    margin-top: 2600px;
     font-family: "Madimi One";
     width: 100%;
 }
@@ -164,7 +164,31 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 1.1em;
+    padding: 5px 0px 10px 0px;
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+}
+
+/* .links_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 0px 10px 0px;
+    font-size: 1.1em;
+    color: #FFF;
     flex-wrap: wrap;
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+} */
+
+.link_footer_a {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-size: 1.1em;
     padding: 5px 0px 10px 0px;
 }
@@ -183,6 +207,10 @@ footer {
     font-size: 1.1em;
     transition: 0.5s;
 }
+
+/* .separation_links {
+    padding: 0px 10px;
+} */
 
 hr {
     /* margin: 0px 375px; */

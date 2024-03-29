@@ -8,18 +8,29 @@
 
 main {
     padding: 100px;
+    @media screen and (max-width: 800px) {
+        padding: 100px 0px;
+    }
 }
 
 .please_make_a_donation {
     background-color: #D2A25F;
     border-radius: 20px;
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
 }
 
 .please_make_a_donation p {
     color: #FFF;
     font-size: 1.5em;
     padding: 20px;
+    text-align: center;
     font-family: "Patrick Hand SC";
+    @media screen and (max-width: 800px) {
+        padding: 10px;
+        font-size: 1.2em;
+    }
 }
 
 .please_make_a_donation p .name_ngo {
@@ -32,14 +43,27 @@ form {
     display: flex;
     width: 100%;
     margin: 20px auto;
+    flex-direction: row;
+    box-shadow: 4px 4px 4px 4px rgba(0.1, 0.1, 0.1, 0.1);
+    @media screen and (max-width: 800px) {
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 0px;
+    }
 }
 
 .info_part {
     width: 50%;
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
 }
 
 .card_part {
     width: 50%;
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
 }
 
 .first_part,
@@ -51,6 +75,9 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+    @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .first_part,
@@ -133,6 +160,15 @@ option {
 .sentences_part {
     color: red;
     font-size: 0.85em;
-    /* float: right; */
     text-align: right;
+    @media screen and (max-width: 800px) {
+        margin-top: -30px;
+        padding: 10px;
+        text-align: justify;
+        font-size: 0.75em;
+    }
 }
+
+footer {
+    margin-top: 100px!important;
+  }

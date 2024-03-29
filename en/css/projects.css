@@ -1,0 +1,41 @@
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+   padding-top: 100px;
+}
+.box_pre {
+    padding: 30px;
+    margin: 10px 50px;
+    background-color: #D2A25F;
+    color: white;
+    font-size: 1.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
+
+main h1,
+ul {
+    color: #D2A25F;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 3em;
+    padding: 30px;
+}
+
+main ul {
+    font-size: 1.5em;
+
+}
+
+
+footer {
+    margin-bottom: -3000px;
+}

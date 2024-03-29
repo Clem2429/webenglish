@@ -57,7 +57,7 @@
     border-radius: 40px;
   }
 
-  .box_tab:nth-child(2), .box_tab:nth-child(4) {
+  .box_tab:nth-child(2), .box_tab:nth-child(4), .box_tab:nth-child(6) {
     left: 60%;
   }
 
